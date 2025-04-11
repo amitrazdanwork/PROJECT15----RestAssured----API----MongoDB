@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qa.testcases.user.USER_PUT_API_TESTS">
+        <methods>
+          <include name="Test5"/>
+          <include name="Method_Teardown"/>
+          <include name="Suite_Teardown"/>
+          <include name="Teardown"/>
+          <include name="Method_Setup"/>
+          <include name="Setup"/>
+          <include name="Suite_Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.user.USER_PUT_API_TESTS -->
+      <class name="com.qa.testcases.user.USER_DELETE_API_TESTS">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+          <include name="Method_Teardown"/>
+          <include name="Test1"/>
+          <include name="Setup"/>
+          <include name="Test2"/>
+          <include name="Suite_Teardown"/>
+          <include name="Method_Setup"/>
+          <include name="Suite_Setup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- com.qa.testcases.user.USER_DELETE_API_TESTS -->
+      <class name="com.qa.testcases.user.USER_GET_API_TESTS">
+        <methods>
+          <include name="Teardown"/>
+          <include name="Test5"/>
+          <include name="Setup"/>
+          <include name="Method_Teardown"/>
+          <include name="Suite_Teardown"/>
+          <include name="Method_Setup"/>
+          <include name="Suite_Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.user.USER_GET_API_TESTS -->
+      <class name="com.qa.testcases.user.USER_POST_API_TESTS">
+        <methods>
+          <include name="Test5"/>
+          <include name="Setup"/>
+          <include name="Teardown"/>
+          <include name="Method_Teardown"/>
+          <include name="Suite_Teardown"/>
+          <include name="Method_Setup"/>
+          <include name="Suite_Setup"/>
+        </methods>
+      </class> <!-- com.qa.testcases.user.USER_POST_API_TESTS -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
